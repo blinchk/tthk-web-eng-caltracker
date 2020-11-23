@@ -21,5 +21,9 @@ addButton.addEventListener('click', (event) => {
     listItem.appendChild(document.createTextNode(text));
     list.appendChild(listItem);
     
+    // Set input[text] values to default
+    foodName.value = "";
+    foodCalories.value = "";
+
     event.preventDefault();
 });
